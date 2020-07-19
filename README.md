@@ -1,5 +1,7 @@
 # pnuxt
 
+nuxt 移动端 模版，
+
 ## Build Setup
 
 ```bash
