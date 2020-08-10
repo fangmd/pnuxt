@@ -2,26 +2,21 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        pnuxt
-      </h1>
+      <h1 class="title">pnuxt</h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
           class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
+          href="https://nuxtjs.org/"
           rel="noopener noreferrer"
+          target="_blank"
+        >Documentation</a>
+        <a
           class="button--grey"
-        >
-          GitHub
-        </a>
+          href="https://github.com/nuxt/nuxt.js"
+          rel="noopener noreferrer"
+          target="_blank"
+        >GitHub</a>
+        <nuxt-link to="/activity/one">Home page</nuxt-link>
       </div>
     </div>
   </div>

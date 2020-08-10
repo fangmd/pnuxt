@@ -1,3 +1,4 @@
+// nuxt 项目原始 eslint 配置
 module.exports = {
   root: true,
   env: {

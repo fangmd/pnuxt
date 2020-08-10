@@ -9,13 +9,7 @@
           href="https://nuxtjs.org/"
           rel="noopener noreferrer"
           target="_blank"
-        >Documentation</a>
-        <a
-          class="button--grey"
-          href="https://github.com/nuxt/nuxt.js"
-          rel="noopener noreferrer"
-          target="_blank"
-        >GitHub</a>
+        >One Activity</a>
       </div>
     </div>
   </div>
