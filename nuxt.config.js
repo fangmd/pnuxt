@@ -29,9 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    'normalize.css/normalize.css'
-  ],
+  css: ['normalize.css/normalize.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -66,4 +64,8 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  server: {
+    port: 3005,
+    host: '0.0.0.0',
+  },
 }
