@@ -29,4 +29,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - [ ] Less
 - [x] normalize.css
+- [x] add git hash & build time to index.html
 
