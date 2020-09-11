@@ -86,7 +86,24 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    postcss: {
+      plugins: [
+        require('postcss-px-to-viewport')({
+          viewportWidth: 750, // 提供的设计稿宽度
+          exclude: /(\/|\\)(node_modules)(\/|\\)/, // 不处理node_modules目录，防止影响引入的插件的样式
+        }),
+      ],
+    },
+    extend(config) {
+      let rules = config.module.rules
+      rules.push({
+        test: /\.(vue|jsx)$/,
+        loader: 'style-vw-loader',
+        options: {} // 默认是适应750px的设计稿的
+      })
+    }
+  },
   server: {
     port: 3005,
     host: '0.0.0.0',
